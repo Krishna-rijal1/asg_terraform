@@ -10,7 +10,7 @@ resource "aws_alb" "load_balancer" {
 }
 
 resource "aws_lb_target_group" "target_group" {
-  name        = "test-tg"
+  name        = "test-tg2"
   port        = 80
   protocol    = "HTTP"
   # target_type = "instance"

@@ -20,3 +20,4 @@ module "asg" {
   tg_arn  = module.lb.tg_arn
   load_balancer_arn = module.lb.lb_arn
 }
+
